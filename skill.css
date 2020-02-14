@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    background-color:royalblue;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.Skill{
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+nav ul{
+    float: left;
+    list-style: none ;
+    margin-top: 70px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;  
+}
+
+nav ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+   
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+.profile-picture{
+    height: 30px;
+    width: 30px;
+    margin-right: 100px;
+    padding-top: 10px;
+    padding-left: 500px;
+}
+ 
+img{
+    border-radius: 50px;
+}
+
+.Skill{
+    padding-top: 130px;
+    padding-left: 100px;
+}
+
+.social-media-icons{
+    padding-left: 900px;
+    padding-top: 300px;
+}
+.skill-nav {
+    float: left;
+}
+
+.skill-nav ul li a {
+    color: red;
+}
+
+

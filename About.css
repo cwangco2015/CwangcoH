@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    background-color:palevioletred;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+   
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.About{
+    color: cyan;
+    padding-top: 80px;
+    padding-left: 500px;
+    font-style: italic;   
+}
+
+.profile-picture{
+    height: 100px;
+    width: 30px;
+    margin-right: 100px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* Green */
+.Education {
+    color: green;
+}
+
+.Education:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Blue */
+.Skills {
+    color: dodgerblue;
+}
+
+.Skills:hover {
+    background: #2196F3;
+    color: white;
+}
+
+/* Orange */
+.ProfessionalGoals {
+    color: orange;
+}
+
+.ProfessionalGoals:hover {
+    background: #ff9800;
+    color: white;
+}
+
+/* Red */
+.Objectives {
+    color: red;
+}
+.Objectives:hover {
+    background: #f44336;
+    color: white;
+}
+
+/* Gray */
+.Accomplishments {
+    color: black;
+}
+
+.Accomplishments:hover {
+    background: #e7e7e7;
+}
+ 
+.social-media-icons{
+    padding-left: 800px;
+    padding-top: 200px;
+}
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }

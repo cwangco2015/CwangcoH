@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Contact Form</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" href="Contact.css"/>
+</head>
+
+<body>
+  
+    <div class="main">  
+    </div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+
+    </ul>
+</div>
+<br> <br> <br>
+    <div class="contact-titile">
+             <h1 class="glow">Contact Me</h1>
+    </div>
+
+    <div class="contact-form">
+        <form action="mailto:cwangcohlalukana97@gmail.com" method="post" enctype="text/plain">
+        <form id="contact-form">
+        <form action="/action_page.php">
+             <input name="name" type="text"  id="name"  class="form-control" placeholder="Your   Name" required>
+             <br>
+             <input name="email" type="email" id="email"   class="form-control" placeholder="Your Email" 
+              required><br>
+
+             <textarea name="message"  id="message"  class="form-control" placeholder="Message" row="4"
+              required></textarea>
+
+        <div class="g-recaptcha" data-sitekey="6LdHe9gUAAAAAHkDY5U8fJ7tM-SY3-jCp5I9hm3R"></div>
+        <input type="submit" id="submit" class="form-control submit" value="SEND MESSAGE">
+
+        </form>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase.js"></script>
+    <script src="main.js"></script>
+
+    <footer>
+        <div class="social-media-icons">
+            <a href="https://ww.facebook.com"> <img src="facebook.jfif" style="width: 80px; height: 80px;"></a>
+            <a href="https://ww.twitter.com"> <img src="twitter.png" style="width:80px; height: 80px;"></a>
+            <a href="https://ww.instagram.com"> <img src="insta.jfif" style="width: 80px; height: 80px;"></a>
+        </div>
+    </footer>
+    </html>
+
+
+      
+
+    
+    
+</body>  
+</html>
